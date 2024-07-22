@@ -17,6 +17,7 @@ In this project, I developed a comprehensive bioinformatics package named "Magnu
 * Included a command-line interface to specify input files, maximum amplicon size, and alignment parameters.
 
 Usage
+
 `
 python amplicon_align.py -1 data/Pseudomonas_aeruginosa_PAO1.fna -2 data/Pseudomonas_protegens_CHA0.fna -p data/rpoD.fna -m 2000 --match 1 --mismatch=-1 --gap=-1
 `
